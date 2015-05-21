@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoUI", "GoUI\GoUI.csproj", "{6108F256-7829-42CB-A8EF-086A0F408D18}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A625C607-65E1-4C40-A296-A52EFA919D3A} = {A625C607-65E1-4C40-A296-A52EFA919D3A}
+		{ADB1AFD1-E7E1-4446-B241-6DAC23C93991} = {ADB1AFD1-E7E1-4446-B241-6DAC23C93991}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GoLibrary", "GoLibrary\GoLibrary.vcxproj", "{A625C607-65E1-4C40-A296-A52EFA919D3A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ADB1AFD1-E7E1-4446-B241-6DAC23C93991} = {ADB1AFD1-E7E1-4446-B241-6DAC23C93991}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GoKernel", "GoKernel\GoKernel.vcxproj", "{ADB1AFD1-E7E1-4446-B241-6DAC23C93991}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6108F256-7829-42CB-A8EF-086A0F408D18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6108F256-7829-42CB-A8EF-086A0F408D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6108F256-7829-42CB-A8EF-086A0F408D18}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6108F256-7829-42CB-A8EF-086A0F408D18}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6108F256-7829-42CB-A8EF-086A0F408D18}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{6108F256-7829-42CB-A8EF-086A0F408D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6108F256-7829-42CB-A8EF-086A0F408D18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6108F256-7829-42CB-A8EF-086A0F408D18}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6108F256-7829-42CB-A8EF-086A0F408D18}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6108F256-7829-42CB-A8EF-086A0F408D18}.Release|Win32.ActiveCfg = Release|Any CPU
+		{A625C607-65E1-4C40-A296-A52EFA919D3A}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{A625C607-65E1-4C40-A296-A52EFA919D3A}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{A625C607-65E1-4C40-A296-A52EFA919D3A}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{A625C607-65E1-4C40-A296-A52EFA919D3A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A625C607-65E1-4C40-A296-A52EFA919D3A}.Debug|Win32.Build.0 = Debug|Win32
+		{A625C607-65E1-4C40-A296-A52EFA919D3A}.Release|Any CPU.ActiveCfg = Release|Win32
+		{A625C607-65E1-4C40-A296-A52EFA919D3A}.Release|Any CPU.Build.0 = Release|Win32
+		{A625C607-65E1-4C40-A296-A52EFA919D3A}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{A625C607-65E1-4C40-A296-A52EFA919D3A}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{A625C607-65E1-4C40-A296-A52EFA919D3A}.Release|Win32.ActiveCfg = Release|Win32
+		{A625C607-65E1-4C40-A296-A52EFA919D3A}.Release|Win32.Build.0 = Release|Win32
+		{ADB1AFD1-E7E1-4446-B241-6DAC23C93991}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{ADB1AFD1-E7E1-4446-B241-6DAC23C93991}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{ADB1AFD1-E7E1-4446-B241-6DAC23C93991}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{ADB1AFD1-E7E1-4446-B241-6DAC23C93991}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ADB1AFD1-E7E1-4446-B241-6DAC23C93991}.Debug|Win32.Build.0 = Debug|Win32
+		{ADB1AFD1-E7E1-4446-B241-6DAC23C93991}.Release|Any CPU.ActiveCfg = Release|Win32
+		{ADB1AFD1-E7E1-4446-B241-6DAC23C93991}.Release|Any CPU.Build.0 = Release|Win32
+		{ADB1AFD1-E7E1-4446-B241-6DAC23C93991}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{ADB1AFD1-E7E1-4446-B241-6DAC23C93991}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{ADB1AFD1-E7E1-4446-B241-6DAC23C93991}.Release|Win32.ActiveCfg = Release|Win32
+		{ADB1AFD1-E7E1-4446-B241-6DAC23C93991}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

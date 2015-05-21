@@ -1,0 +1,21 @@
+﻿<Window x:Class="GoUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="It's Go Time!" Height="400" Width="500"
+        xmlns:UIControls="clr-namespace:GoUI.Controls"
+        x:Name="MainWindowCtrl">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <Border Background="BurlyWood" BorderBrush="Black" BorderThickness="3,3,3,3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Margin="5,5,5,5" Grid.Row="0">
+      <UIControls:GridBoardControl x:Name="GoBoard" Height="Auto" Width="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+    </Border>
+    <StackPanel x:Name="DebugStack" Margin="5,5,5,5" Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" Visibility="Collapsed">
+      <Label x:Name="DebugLabel" Content="Enter Board Size: " Margin="0,0,3,0"/>
+      <TextBox x:Name="DebugTB" Width="50" Text="0" HorizontalContentAlignment="Center" Margin="0,0,10,0"/>
+      <Button x:Name="DebugBtn" Content="Debug Me!"/>
+    </StackPanel>
+  </Grid>
+</Window>

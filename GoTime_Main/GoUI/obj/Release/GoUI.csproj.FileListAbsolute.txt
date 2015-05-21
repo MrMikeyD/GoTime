@@ -1,0 +1,161 @@
+C:\Users\Michael_Dente\Desktop\GoTime_Dev_UI\GoUI\bin\Release\GoUI.exe.config
+C:\Users\Michael_Dente\Desktop\GoTime_Dev_UI\GoUI\bin\Release\GoUI.exe
+C:\Users\Michael_Dente\Desktop\GoTime_Dev_UI\GoUI\bin\Release\GoUI.pdb
+C:\Users\Michael_Dente\Desktop\GoTime_Dev_UI\GoUI\bin\Release\GoLibrary.dll
+C:\Users\Michael_Dente\Desktop\GoTime_Dev_UI\GoUI\bin\Release\GoLibrary.pdb
+C:\Users\Michael_Dente\Desktop\GoTime_Dev_UI\GoUI\obj\Release\MainWindow.baml
+C:\Users\Michael_Dente\Desktop\GoTime_Dev_UI\GoUI\obj\Release\MainWindow.g.cs
+C:\Users\Michael_Dente\Desktop\GoTime_Dev_UI\GoUI\obj\Release\App.g.cs
+C:\Users\Michael_Dente\Desktop\GoTime_Dev_UI\GoUI\obj\Release\GoUI_MarkupCompile.cache
+C:\Users\Michael_Dente\Desktop\GoTime_Dev_UI\GoUI\obj\Release\GoUI.g.resources
+C:\Users\Michael_Dente\Desktop\GoTime_Dev_UI\GoUI\obj\Release\GoUI.Properties.Resources.resources
+C:\Users\Michael_Dente\Desktop\GoTime_Dev_UI\GoUI\obj\Release\GoUI.csproj.GenerateResource.Cache
+C:\Users\Michael_Dente\Desktop\GoTime_Dev_UI\GoUI\obj\Release\GoUI.exe
+C:\Users\Michael_Dente\Desktop\GoTime_Dev_UI\GoUI\obj\Release\GoUI.pdb
+C:\Users\Michael_Dente\Desktop\GoTime_Dev_UI\GoUI\obj\Release\GoUI.csprojResolveAssemblyReference.cache
+C:\Users\Michael_Dente\Desktop\GoTime_Dev_UI\GoUI\obj\Release\GoUIDictionary.baml
+C:\Users\Michael_Dente\Desktop\GoTime_Dev_UI\GoUI\obj\Release\Controls\GridBoardControl.g.cs
+C:\Users\Michael_Dente\Desktop\GoTime_Dev_UI\GoUI\obj\Release\GoUI_MarkupCompile.lref
+C:\Users\Michael_Dente\Desktop\GoTime_Dev_UI\GoUI\obj\Release\Controls\GridBoardControl.baml
+C:\Users\Michael_Dente\Desktop\GoTime_Dev_UI\GoUI\obj\Release\GeneratedInternalTypeHelper.g.cs
+F:\GoTime_Main\GoUI\bin\Release\GoUI.exe.config
+F:\GoTime_Main\GoUI\obj\Release\GoUI.exe
+F:\GoTime_Main\GoUI\obj\Release\GoUI.pdb
+F:\GoTime_Main\GoUI\obj\Release\GoUI.csprojResolveAssemblyReference.cache
+F:\GoTime_Main\GoUI\obj\Release\GoUIDictionary.baml
+F:\GoTime_Main\GoUI\obj\Release\Controls\GridBoardControl.g.cs
+F:\GoTime_Main\GoUI\obj\Release\MainWindow.g.cs
+F:\GoTime_Main\GoUI\obj\Release\App.g.cs
+F:\GoTime_Main\GoUI\obj\Release\GeneratedInternalTypeHelper.g.cs
+F:\GoTime_Main\GoUI\obj\Release\GoUI_MarkupCompile.cache
+F:\GoTime_Main\GoUI\obj\Release\GoUI_MarkupCompile.lref
+C:\Users\Michael_Dente\Desktop\GoTime_Main\GoUI\bin\Release\GoUI.exe.config
+C:\Users\Michael_Dente\Desktop\GoTime_Main\GoUI\obj\Release\GoUI.exe
+C:\Users\Michael_Dente\Desktop\GoTime_Main\GoUI\obj\Release\GoUI.pdb
+C:\Users\Michael_Dente\Desktop\GoTime_Main\GoUI\obj\Release\GoUI.csprojResolveAssemblyReference.cache
+C:\Users\Michael_Dente\Desktop\GoTime_Main\GoUI\obj\Release\GoUIDictionary.baml
+C:\Users\Michael_Dente\Desktop\GoTime_Main\GoUI\obj\Release\Controls\GridBoardControl.g.cs
+C:\Users\Michael_Dente\Desktop\GoTime_Main\GoUI\obj\Release\MainWindow.g.cs
+C:\Users\Michael_Dente\Desktop\GoTime_Main\GoUI\obj\Release\App.g.cs
+C:\Users\Michael_Dente\Desktop\GoTime_Main\GoUI\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Michael_Dente\Desktop\GoTime_Main\GoUI\obj\Release\GoUI_MarkupCompile.cache
+C:\Users\Michael_Dente\Desktop\GoTime_Main\GoUI\obj\Release\GoUI_MarkupCompile.lref
+C:\Users\Michael_Dente\Desktop\GoTime_Main\GoUI\bin\Release\GoUI.exe
+C:\Users\Michael_Dente\Desktop\GoTime_Main\GoUI\bin\Release\GoUI.pdb
+C:\Users\Michael_Dente\Desktop\GoTime_Main\GoUI\bin\Release\GoLibrary.dll
+C:\Users\Michael_Dente\Desktop\GoTime_Main\GoUI\bin\Release\GoLibrary.pdb
+C:\Users\Michael_Dente\Desktop\GoTime_Main\GoUI\obj\Release\Controls\GridBoardControl.baml
+C:\Users\Michael_Dente\Desktop\GoTime_Main\GoUI\obj\Release\MainWindow.baml
+C:\Users\Michael_Dente\Desktop\GoTime_Main\GoUI\obj\Release\GoUI.g.resources
+C:\Users\Michael_Dente\Desktop\GoTime_Main\GoUI\obj\Release\GoUI.Properties.Resources.resources
+C:\Users\Michael_Dente\Desktop\GoTime_Main\GoUI\obj\Release\GoUI.csproj.GenerateResource.Cache
+C:\Users\Michael_Dente\Desktop\GoTime_Main\GoUI\obj\Release\App.baml
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_UI\GoUI\bin\Release\GoUI.exe.config
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\GoUI.exe
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\GoUI.pdb
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\GoUI.csprojResolveAssemblyReference.cache
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\App.baml
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\Controls\GridBoardControl.g.cs
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\MainWindow.g.cs
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\App.g.cs
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\GoUI_MarkupCompile.cache
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\GoUI_MarkupCompile.lref
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_UI\GoUI\bin\Release\GoUI.exe
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_UI\GoUI\bin\Release\GoUI.pdb
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\Controls\GridBoardControl.baml
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\GoUIDictionary.baml
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\MainWindow.baml
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\GoUI.g.resources
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\GoUI.Properties.Resources.resources
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\GoUI.csproj.GenerateResource.Cache
+F:\GoTime_Current\GoTime_Main\GoUI\bin\Release\GoUI.exe.config
+F:\GoTime_Current\GoTime_Main\GoUI\obj\Release\GoUI.exe
+F:\GoTime_Current\GoTime_Main\GoUI\obj\Release\GoUI.pdb
+F:\GoTime_Current\GoTime_Main\GoUI\bin\Release\GoUI.exe
+F:\GoTime_Current\GoTime_Main\GoUI\bin\Release\GoUI.pdb
+F:\GoTime_Current\GoTime_Main\GoUI\bin\Release\GoLibrary.pdb
+F:\GoTime_Current\GoTime_Main\GoUI\obj\Release\GoUI.csprojResolveAssemblyReference.cache
+F:\GoTime_Current\GoTime_Main\GoUI\obj\Release\App.baml
+F:\GoTime_Current\GoTime_Main\GoUI\obj\Release\Controls\GridBoardControl.g.cs
+F:\GoTime_Current\GoTime_Main\GoUI\obj\Release\MainWindow.g.cs
+F:\GoTime_Current\GoTime_Main\GoUI\obj\Release\App.g.cs
+F:\GoTime_Current\GoTime_Main\GoUI\obj\Release\GeneratedInternalTypeHelper.g.cs
+F:\GoTime_Current\GoTime_Main\GoUI\obj\Release\GoUI_MarkupCompile.cache
+F:\GoTime_Current\GoTime_Main\GoUI\obj\Release\GoUI_MarkupCompile.lref
+F:\GoTime_Current\GoTime_Main\GoUI\obj\Release\Controls\GridBoardControl.baml
+F:\GoTime_Current\GoTime_Main\GoUI\obj\Release\GoUIDictionary.baml
+F:\GoTime_Current\GoTime_Main\GoUI\obj\Release\MainWindow.baml
+F:\GoTime_Current\GoTime_Main\GoUI\obj\Release\GoUI.g.resources
+F:\GoTime_Current\GoTime_Main\GoUI\obj\Release\GoUI.Properties.Resources.resources
+F:\GoTime_Current\GoTime_Main\GoUI\obj\Release\GoUI.csproj.GenerateResource.Cache
+F:\GoTime_Current\GoTime_Main\GoUI\bin\Release\GoLibrary.dll
+F:\GoTime_Current\GoTime_Dev_UI\GoUI\bin\Release\GoUI.exe.config
+F:\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\GoUI.exe
+F:\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\GoUI.pdb
+F:\GoTime_Current\GoTime_Dev_UI\GoUI\bin\Release\GoUI.exe
+F:\GoTime_Current\GoTime_Dev_UI\GoUI\bin\Release\GoUI.pdb
+F:\GoTime_Current\GoTime_Dev_UI\GoUI\bin\Release\GoLibrary.dll
+F:\GoTime_Current\GoTime_Dev_UI\GoUI\bin\Release\GoLibrary.pdb
+F:\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\GoUI.csprojResolveAssemblyReference.cache
+F:\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\App.baml
+F:\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\Controls\GridBoardControl.g.cs
+F:\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\MainWindow.g.cs
+F:\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\App.g.cs
+F:\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\GeneratedInternalTypeHelper.g.cs
+F:\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\GoUI_MarkupCompile.cache
+F:\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\GoUI_MarkupCompile.lref
+F:\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\Controls\GridBoardControl.baml
+F:\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\GoUIDictionary.baml
+F:\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\MainWindow.baml
+F:\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\GoUI.g.resources
+F:\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\GoUI.Properties.Resources.resources
+F:\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\GoUI.csproj.GenerateResource.Cache
+F:\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\DebugWindow.baml
+F:\GoTime_Current\GoTime_Dev_UI\GoUI\obj\Release\DebugWindow.g.cs
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_Kernel\GoUI\bin\Release\GoUI.exe.config
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_Kernel\GoUI\bin\Release\GoUI.exe
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_Kernel\GoUI\bin\Release\GoUI.pdb
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_Kernel\GoUI\bin\Release\GoLibrary.dll
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_Kernel\GoUI\bin\Release\GoLibrary.pdb
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_Kernel\GoUI\obj\Release\GoUI.csprojResolveAssemblyReference.cache
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_Kernel\GoUI\obj\Release\DebugWindow.baml
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_Kernel\GoUI\obj\Release\App.baml
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_Kernel\GoUI\obj\Release\Controls\GridBoardControl.g.cs
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_Kernel\GoUI\obj\Release\DebugWindow.g.cs
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_Kernel\GoUI\obj\Release\MainWindow.g.cs
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_Kernel\GoUI\obj\Release\App.g.cs
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_Kernel\GoUI\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_Kernel\GoUI\obj\Release\GoUI_MarkupCompile.cache
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_Kernel\GoUI\obj\Release\GoUI_MarkupCompile.lref
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_Kernel\GoUI\obj\Release\Controls\GridBoardControl.baml
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_Kernel\GoUI\obj\Release\GoUIDictionary.baml
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_Kernel\GoUI\obj\Release\MainWindow.baml
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_Kernel\GoUI\obj\Release\GoUI.g.resources
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_Kernel\GoUI\obj\Release\GoUI.Properties.Resources.resources
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_Kernel\GoUI\obj\Release\GoUI.csproj.GenerateResource.Cache
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_Kernel\GoUI\obj\Release\GoUI.exe
+C:\Users\Michael_Dente\Desktop\GoTime_Current\GoTime_Dev_Kernel\GoUI\obj\Release\GoUI.pdb
+C:\Users\Michael Dente\Desktop\GoTime_Current\GoTime_Main\GoUI\bin\Release\GoUI.exe.config
+C:\Users\Michael Dente\Desktop\GoTime_Current\GoTime_Main\GoUI\bin\Release\GoUI.exe
+C:\Users\Michael Dente\Desktop\GoTime_Current\GoTime_Main\GoUI\bin\Release\GoUI.pdb
+C:\Users\Michael Dente\Desktop\GoTime_Current\GoTime_Main\GoUI\bin\Release\GoLibrary.dll
+C:\Users\Michael Dente\Desktop\GoTime_Current\GoTime_Main\GoUI\bin\Release\GoLibrary.pdb
+C:\Users\Michael Dente\Desktop\GoTime_Current\GoTime_Main\GoUI\obj\Release\GoUI.csprojResolveAssemblyReference.cache
+C:\Users\Michael Dente\Desktop\GoTime_Current\GoTime_Main\GoUI\obj\Release\DebugWindow.baml
+C:\Users\Michael Dente\Desktop\GoTime_Current\GoTime_Main\GoUI\obj\Release\App.baml
+C:\Users\Michael Dente\Desktop\GoTime_Current\GoTime_Main\GoUI\obj\Release\Controls\GridBoardControl.g.cs
+C:\Users\Michael Dente\Desktop\GoTime_Current\GoTime_Main\GoUI\obj\Release\DebugWindow.g.cs
+C:\Users\Michael Dente\Desktop\GoTime_Current\GoTime_Main\GoUI\obj\Release\MainWindow.g.cs
+C:\Users\Michael Dente\Desktop\GoTime_Current\GoTime_Main\GoUI\obj\Release\App.g.cs
+C:\Users\Michael Dente\Desktop\GoTime_Current\GoTime_Main\GoUI\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Michael Dente\Desktop\GoTime_Current\GoTime_Main\GoUI\obj\Release\GoUI_MarkupCompile.cache
+C:\Users\Michael Dente\Desktop\GoTime_Current\GoTime_Main\GoUI\obj\Release\GoUI_MarkupCompile.lref
+C:\Users\Michael Dente\Desktop\GoTime_Current\GoTime_Main\GoUI\obj\Release\Controls\GridBoardControl.baml
+C:\Users\Michael Dente\Desktop\GoTime_Current\GoTime_Main\GoUI\obj\Release\GoUIDictionary.baml
+C:\Users\Michael Dente\Desktop\GoTime_Current\GoTime_Main\GoUI\obj\Release\MainWindow.baml
+C:\Users\Michael Dente\Desktop\GoTime_Current\GoTime_Main\GoUI\obj\Release\GoUI.g.resources
+C:\Users\Michael Dente\Desktop\GoTime_Current\GoTime_Main\GoUI\obj\Release\GoUI.Properties.Resources.resources
+C:\Users\Michael Dente\Desktop\GoTime_Current\GoTime_Main\GoUI\obj\Release\GoUI.csproj.GenerateResource.Cache
+C:\Users\Michael Dente\Desktop\GoTime_Current\GoTime_Main\GoUI\obj\Release\GoUI.exe
+C:\Users\Michael Dente\Desktop\GoTime_Current\GoTime_Main\GoUI\obj\Release\GoUI.pdb

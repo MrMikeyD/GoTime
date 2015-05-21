@@ -1,0 +1,21 @@
+c:\Users\michael_dente\documents\visual studio 2012\Projects\GoTime\GoUI\bin\Debug\GoUI.exe.config
+c:\Users\michael_dente\documents\visual studio 2012\Projects\GoTime\GoUI\bin\Debug\GoUI.exe
+c:\Users\michael_dente\documents\visual studio 2012\Projects\GoTime\GoUI\bin\Debug\GoUI.pdb
+c:\Users\michael_dente\documents\visual studio 2012\Projects\GoTime\GoUI\bin\Debug\GoLibrary.dll
+c:\Users\michael_dente\documents\visual studio 2012\Projects\GoTime\GoUI\bin\Debug\GoLibrary.pdb
+c:\Users\michael_dente\documents\visual studio 2012\Projects\GoTime\GoUI\obj\Debug\GoUI.csprojResolveAssemblyReference.cache
+c:\Users\michael_dente\documents\visual studio 2012\Projects\GoTime\GoUI\obj\Debug\MainWindow.baml
+c:\Users\michael_dente\documents\visual studio 2012\Projects\GoTime\GoUI\obj\Debug\MainWindow.g.cs
+c:\Users\michael_dente\documents\visual studio 2012\Projects\GoTime\GoUI\obj\Debug\App.g.cs
+c:\Users\michael_dente\documents\visual studio 2012\Projects\GoTime\GoUI\obj\Debug\GoUI_MarkupCompile.cache
+c:\Users\michael_dente\documents\visual studio 2012\Projects\GoTime\GoUI\obj\Debug\GoUI.g.resources
+c:\Users\michael_dente\documents\visual studio 2012\Projects\GoTime\GoUI\obj\Debug\GoUI.Properties.Resources.resources
+c:\Users\michael_dente\documents\visual studio 2012\Projects\GoTime\GoUI\obj\Debug\GoUI.csproj.GenerateResource.Cache
+c:\Users\michael_dente\documents\visual studio 2012\Projects\GoTime\GoUI\obj\Debug\GoUI.exe
+c:\Users\michael_dente\documents\visual studio 2012\Projects\GoTime\GoUI\obj\Debug\GoUI.pdb
+C:\Users\Michael_Dente\Desktop\GoTime_Dev_UI\GoUI\bin\Debug\GoUI.exe.config
+C:\Users\Michael_Dente\Desktop\GoTime_Dev_UI\GoUI\obj\Debug\GoUI.exe
+C:\Users\Michael_Dente\Desktop\GoTime_Dev_UI\GoUI\obj\Debug\GoUI.pdb
+F:\GoTime_Main\GoUI\bin\Debug\GoUI.exe.config
+F:\GoTime_Main\GoUI\obj\Debug\GoUI.exe
+F:\GoTime_Main\GoUI\obj\Debug\GoUI.pdb
