@@ -17,7 +17,7 @@ namespace GoUI.Util
 
         #region Properties
 
-        IBoardPlacer GamePiece { get; set;}
+        GamePiece GamePiece { get; set;}
         Int32 X { get; set; }
         Int32 Y { get; set;}
 

@@ -1,10 +1,12 @@
 ﻿using System;
+using System.Windows.Input;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using GoUI.Util;
+using GoLibrary;
 
 namespace GoUI.Controls
 {
@@ -39,6 +41,40 @@ namespace GoUI.Controls
             }
         }
 
+        /// <summary>
+        /// Handles the event triggered when the mouse is hovering over a point on the board
+        /// </summary>
+        private void OnPointMouseEnter(Object sender, MouseEventArgs e)
+        {
+            if (sender is GridPointControl)
+            {
+                // TODO: one day implement shadowing
+            }
+        }
+
+        private void OnPointMouseLeave(Object sender, MouseEventArgs e)
+        {
+            if (sender is GridPointControl)
+            {
+              //  (sender as GridPointControl).Content = null;
+            }
+        }
+
+        private void OnPointMouseUp(Object sender, MouseButtonEventArgs e)
+        {
+            if (sender is GridPointControl)
+            {
+                GridPointControl ctrl = sender as GridPointControl;
+
+                if (this.kernelGame != null)
+                {
+                    ReturnCodes_LIB status = this.kernelGame.placeStone(ctrl.X, ctrl.Y);
+
+                    this.ProcessStatus(status);
+                }
+            }
+        }
+
         #endregion End of Events
 
         #region Methods
@@ -56,6 +92,27 @@ namespace GoUI.Controls
                     {
                         (child as IUIControl).Clear();
                     }
+
+                    if (child is GridBoardRow)
+                    {
+                        GridBoardRow row = child as GridBoardRow;
+                        Boolean validBoardRow = (row.Tag is GridBoardType && (GridBoardType)row.Tag <= this.BoardType);
+
+                        if (validBoardRow)
+                        {
+                            if (row.Children != null && row.Children.Count > 0)
+                            {
+                                if (child is GridPointControl)
+                                {
+                                    GridPointControl ctrl = child as GridPointControl;
+
+                                    ctrl.MouseEnter -= this.OnPointMouseEnter;
+                                    ctrl.MouseLeave -= this.OnPointMouseLeave;
+                                    ctrl.MouseLeftButtonUp -= this.OnPointMouseUp;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -67,10 +124,18 @@ namespace GoUI.Controls
         {
             this.Clear();
 
-            foreach (IUIControl child in this.BoardRoot.Children)
+            if (this.BoardRoot.Children != null && this.BoardRoot.Children.Count > 0)
             {
-                child.Detach();
+                foreach (UIElement child in this.BoardRoot.Children)
+                {
+                    if (child is IUIControl)
+                    {
+                        (child as IUIControl).Detach();
+                    }
+                }
             }
+
+            if (this.kernelGame != null) this.kernelGame.Dispose();
         }
 
         /// <summary>
@@ -90,14 +155,20 @@ namespace GoUI.Controls
                 if (child is GridBoardRow)
                 {
                     GridBoardRow row = child as GridBoardRow;
+                    row.Children.Clear();
+                    Boolean validBoardRow = (row.Tag is GridBoardType && (GridBoardType)row.Tag <= this.BoardType);
 
-                    if (row.Tag is GridBoardType && ((GridBoardType)row.Tag <= this.BoardType))
+                    if (validBoardRow)
                     {
                         int y;
 
                         for (y = 0; y < boardSize; y++)
                         {
-                            GridPointControl ctrl = new GridPointControl(new Point(x, y));
+                            GridPointControl ctrl = new GridPointControl(new Point(y, x));
+                            ctrl.MouseEnter += this.OnPointMouseEnter;
+                            ctrl.MouseLeave += this.OnPointMouseLeave;
+                            ctrl.MouseLeftButtonUp += this.OnPointMouseUp;
+                            ctrl.GamePiece = null; 
 
                             row.AddGridPoint(ctrl);
                         }
@@ -112,6 +183,19 @@ namespace GoUI.Controls
 
             this.BoardRoot.Rows = boardSize;
             this.BoardRoot.Columns = 1;
+
+            this.CreateInitialBoard();
+        }
+
+        /// <summary>
+        /// Builds and initial board
+        /// </summary>
+        private void CreateInitialBoard()
+        {
+            if (this.kernelGame != null) this.kernelGame.Dispose();
+
+            this.kernelGame = new Game_LIB((int)this.BoardType);
+            this.Update();
         }
 
         /// <summary>
@@ -119,10 +203,74 @@ namespace GoUI.Controls
         /// </summary>
         private void Update()
         {
-            // Run through each row of the board and add to it  
-            foreach (GridBoardRow row in this.BoardRoot.Children)
+            // At present, we are not smart enough to figure out the results of a play...so we just query every point on the board.
+            // Will we ever know this kind of information? Who knows! Weeeeeeee!
+            if (this.kernelGame != null)
             {
+                // Run through each row of the board and redraw based on kernel query
+                foreach (GridBoardRow row in this.BoardRoot.Children)
+                {
+                    foreach(UIElement child in row.Children)
+                    {
+                        if (child is GridPointControl)
+                        {
+                            GridPointControl ctrl = (child as GridPointControl);
+                            System.Windows.Shapes.Ellipse gamePiece = null;
 
+                            GoColor_LIB color = this.kernelGame.query(ctrl.X, ctrl.Y);
+
+                            switch(color)
+                            {
+                                case GoColor_LIB.BLACK:
+                                    {
+                                        gamePiece = new System.Windows.Shapes.Ellipse();
+                                        gamePiece.Fill = System.Windows.Media.Brushes.Black;
+                                        gamePiece.Height = 40d;
+                                        gamePiece.Width = 40d;
+                                        break;
+                                    }
+                                case GoColor_LIB.WHITE:
+                                    {
+                                        gamePiece = new System.Windows.Shapes.Ellipse();
+                                        gamePiece.Fill = System.Windows.Media.Brushes.White;
+                                        gamePiece.Height = 40d;
+                                        gamePiece.Width = 40d;
+                                        break;
+                                    }
+                                case GoColor_LIB.NONE:
+                                    {
+                                        gamePiece = new System.Windows.Shapes.Ellipse();
+                                        gamePiece.Fill = System.Windows.Media.Brushes.Transparent;
+                                        gamePiece.Height = 40d;
+                                        gamePiece.Width = 40d;
+                                        break;
+                                    }
+                            }
+
+                            (child as GridPointControl).Content = gamePiece;
+                        }
+                    }
+                }
+            }
+        }
+
+        private void ProcessStatus(ReturnCodes_LIB status)
+        {
+            switch(status)
+            {
+                case ReturnCodes_LIB.OK:
+                    {
+                        this.Update();
+                        break;
+                    }
+                case ReturnCodes_LIB.ILLEGAL_KO:
+                case ReturnCodes_LIB.OUT_OF_BOUNDS:
+                case ReturnCodes_LIB.STONE_PRESENT:
+                case ReturnCodes_LIB.SUICIDE:
+                    {
+                        MessageBox.Show(status.ToString());
+                        break;
+                    }
             }
         }
 
@@ -149,6 +297,8 @@ namespace GoUI.Controls
             e13x13 = 13,
             e19x19 = 19
         };
+
+        private Game_LIB kernelGame;
 
         /// <summary>
         /// Property for BoardType property

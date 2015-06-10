@@ -9,7 +9,7 @@ using GoUI.Util;
 
 namespace GoUI.Controls
 {
-    public class GridPointControl : UserControl, IUIControl, IBoardPresenter
+    public class GridPointControl : ContentControl, IUIControl, IBoardPresenter
     {
         #region Constructors
 
@@ -29,7 +29,7 @@ namespace GoUI.Controls
         {
             GridPointControl ctrl = depObj as GridPointControl;
 
-            // Set the Content property to the GamePiece. ControlTemplate knows what to do with  this.
+            // Set the Content property to the GamePiece. ControlTemplate knows what to do with this.
             if (ctrl != null)
             {
                 ctrl.Content = ctrl.GamePiece;
@@ -78,7 +78,7 @@ namespace GoUI.Controls
             set { if (this.coordinate != null && this.coordinate.HasValue) this.coordinate = new Point(this.X, value); }
         }
 
-        public IBoardPlacer GamePiece { get; set; }
+        public GamePiece GamePiece { get; set; }
 
         #endregion End of Properties
 
@@ -87,7 +87,7 @@ namespace GoUI.Controls
         private Nullable<Point> coordinate;
 
         public static readonly DependencyProperty GamePieceProperty = DependencyProperty.Register("GamePiece",
-            typeof(IBoardPlacer), typeof(GridPointControl), new PropertyMetadata(null ,new PropertyChangedCallback(
+            typeof(GamePiece), typeof(GridPointControl), new PropertyMetadata(null, new PropertyChangedCallback(
                 OnGamePieceChanged)));
 
         #endregion End of Members

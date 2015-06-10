@@ -78,7 +78,7 @@
       <DependentUpon>DebugWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Util\Converters.cs" />
-    <Compile Include="Util\IBoardPlacer.cs" />
+    <Compile Include="Util\GamePiece.cs" />
     <Compile Include="Util\IBoardPresenter.cs" />
     <Compile Include="Util\IUIControl.cs" />
     <Page Include="Controls\GridBoardControl.xaml">

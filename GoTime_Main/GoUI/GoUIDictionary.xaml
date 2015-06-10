@@ -18,13 +18,13 @@
 
   <Style x:Key="BlackGridPointStyle" TargetType="UIControls:GridPointControl">
     <Setter Property="HorizontalAlignment" Value="Stretch"/>
-    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+    <Setter Property="HorizontalContentAlignment" Value="Center"/>
     <Setter Property="VerticalAlignment" Value="Stretch"/>
-    <Setter Property="VerticalContentAlignment" Value="Stretch"/>
+    <Setter Property="VerticalContentAlignment" Value="Center"/>
     <Setter Property="Template">
       <Setter.Value>
-        <ControlTemplate>
-          <Grid x:Name="tpRoot" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <ControlTemplate TargetType="UIControls:GridPointControl">
+          <Grid x:Name="tpRoot">
             <Grid.RowDefinitions>
               <RowDefinition Height="*"/>
               <RowDefinition Height="*"/>
@@ -37,7 +37,7 @@
             </Grid.ColumnDefinitions>
             <Separator BorderBrush="Black" Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" Background="Black" BorderThickness="0,1,0,0" Style="{StaticResource VerticalSeparatorStyle}"/>
             <Separator BorderBrush="Black" Background="Black" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"  BorderThickness="1,0,0,0" VerticalAlignment="Stretch" VerticalContentAlignment="Stretch" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" Margin="0,0,0,0" Padding="0,0,0,0"/>
-            <ContentPresenter Grid.Row="1" Grid.Column="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0,0,0,0"/>
+            <ContentPresenter Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10,10,10,10"/>
             <Separator BorderBrush="Black" Grid.Row="2" Grid.Column="1" Grid.RowSpan="2" Background="Black" BorderThickness="0,0,0,1" Style="{StaticResource VerticalSeparatorStyle}"/>
             <Separator BorderBrush="Black" Background="Black" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" BorderThickness="0,0,1,0" VerticalAlignment="Stretch" VerticalContentAlignment="Stretch" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" Margin="0,0,0,0" Padding="0,0,0,0"/>
           </Grid>
